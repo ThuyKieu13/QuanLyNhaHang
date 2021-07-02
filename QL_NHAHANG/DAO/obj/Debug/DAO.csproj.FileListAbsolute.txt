@@ -1,0 +1,36 @@
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\bin\Debug\DAO.dll
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\bin\Debug\DAO.pdb
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\bin\Debug\DTO.dll
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\bin\Debug\DTO.pdb
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\obj\Debug\DAO.dll
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\obj\Debug\DAO.pdb
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\.NET\Công nghệ .NET\DOAN_CNet_QL_NHAHANG1\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.dll
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.dll
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.pdb
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.dll
+C:\Users\ASUS\Desktop\Code Form\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DAO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\bin\Debug\DTO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.dll
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.pdb
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\HK2_Nam3\CongNghePhanMem\QL_NhaHang_Hoai\QL_NHAHANG\QL_NHAHANG\DAO\obj\Debug\DAO.csproj.CopyComplete

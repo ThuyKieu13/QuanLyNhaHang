@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{421AE9B2-1463-4A26-AC54-7D9B3F4851E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QL_NHAHANG</RootNamespace>
+    <AssemblyName>QL_NHAHANG</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MdiTabControl">
+      <HintPath>C:\Users\ASUS\Downloads\MdiTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.Ribbon">
+      <HintPath>C:\Users\ASUS\Downloads\System.Windows.Forms.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCapTKNhanViencs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapTKNhanViencs.Designer.cs">
+      <DependentUpon>frmCapTKNhanViencs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChamCong.Designer.cs">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatNguyenLieu.Designer.cs">
+      <DependentUpon>frmDatNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhapNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhapNguyenLieu.Designer.cs">
+      <DependentUpon>frmNhapNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyNhapNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyNhapNguyenLieu.Designer.cs">
+      <DependentUpon>frmQuanLyNhapNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyBan.Designer.cs">
+      <DependentUpon>frmQuanLyBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyDoanhThu.Designer.cs">
+      <DependentUpon>frmQuanLyDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyLuongNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyLuongNV.Designer.cs">
+      <DependentUpon>frmQuanLyLuongNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyMonAn.Designer.cs">
+      <DependentUpon>frmQuanLyMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyNhaHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyNhaHang.Designer.cs">
+      <DependentUpon>frmQuanLyNhaHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyNhanVien.Designer.cs">
+      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyNL.Designer.cs">
+      <DependentUpon>frmQuanLyNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyTaiChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyTaiChinh.Designer.cs">
+      <DependentUpon>frmQuanLyTaiChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyDatNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyDatNguyenLieu.Designer.cs">
+      <DependentUpon>frmQuanLyDatNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemBanAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemBanAn.Designer.cs">
+      <DependentUpon>frmThemBanAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTinLienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTinLienHe.Designer.cs">
+      <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThuNgan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThuNgan.Designer.cs">
+      <DependentUpon>frmThuNgan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChamCong.resx">
+      <DependentUpon>frmChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatNguyenLieu.resx">
+      <DependentUpon>frmDatNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhapNguyenLieu.resx">
+      <DependentUpon>frmNhapNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyNhapNguyenLieu.resx">
+      <DependentUpon>frmQuanLyNhapNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyBan.resx">
+      <DependentUpon>frmQuanLyBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapTKNhanViencs.resx">
+      <DependentUpon>frmCapTKNhanViencs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyLuongNV.resx">
+      <DependentUpon>frmQuanLyLuongNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyMonAn.resx">
+      <DependentUpon>frmQuanLyMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyNhaHang.resx">
+      <DependentUpon>frmQuanLyNhaHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyNhanVien.resx">
+      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyNL.resx">
+      <DependentUpon>frmQuanLyNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyTaiChinh.resx">
+      <DependentUpon>frmQuanLyTaiChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyDatNguyenLieu.resx">
+      <DependentUpon>frmQuanLyDatNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemBanAn.resx">
+      <DependentUpon>frmThemBanAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongTinLienHe.resx">
+      <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThuNgan.resx">
+      <DependentUpon>frmThuNgan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\DAO.DAO_QL_NguyenLieu.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cach-nau-lau-thap-cam-hai-san-chua-cay-lau-thap-cam-gom-nhung-gi-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\be_hap_bia_06_flrg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10959336_611957282282488_311862915684673772_n-0909.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrashIt_icon_trnspt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-cartoon-contact-icon-download-png-image_4455641.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2812%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_198707393_KAqpUuLko5VMSV7cjQTF0e357yq7Xiwh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-serving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-serving %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfast %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-serving %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-avatar-with-check-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\communicate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\communicate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{de83848f-3a9a-4ebe-9f7e-c8349b057da8}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{7433fe41-0dd1-49c4-864d-266b7155c25c}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mặt-tiền-nhà-hàng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_329605904_DDDVsBOx62iY0IKf9SwcUntRK8brcMyf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_198707393_KAqpUuLko5VMSV7cjQTF0e357yq7Xiwh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfast %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAdd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDelete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDelete1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnUpdate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDelete2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuocgiaikhat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_198707393_KAqpUuLko5VMSV7cjQTF0e357yq7Xiwh2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_198707393_KAqpUuLko5VMSV7cjQTF0e357yq7Xiwh3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-cartoon-contact-icon-download-png-image_44556411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnClose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuyenban.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ban.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrint.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
